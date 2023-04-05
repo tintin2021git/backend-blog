@@ -1,0 +1,6 @@
+myvenv
+db.aqlite3
+.vscode.__pychache__
+*.pyc
+.DS_Store
+media
