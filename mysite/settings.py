@@ -92,7 +92,7 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.BasicAuthentication",
         "rest_framework.authentication.SessionAuthentication",
         'dj_rest_auth.jwt_auth.JWTCookieAuthentication', # ネットで見つけたhttps://qiita.com/hajime-f/items/0b42fa3233e41a0f691d
-        # "dj_rest_auth.utils.JWTCookieAuthentication", これでは通らないので
+        "dj_rest_auth.utils.JWTCookieAuthentication", #これでは通らないので
     ),
 }
 
